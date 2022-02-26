@@ -12,7 +12,7 @@ import { ENVIRONMENT, HOST, PORT } from './dependencies/config'
 import { CustomContext } from './types/interfaces/CustomContext'
 
 import { AutoRegister } from './middlewares/AutoRegister'
-import { jwt } from './middlewares/Authendication'
+import { jwt } from './middlewares/Authentication'
 
 import { CoreResolver } from './lib/resolvers/CoreResolver'
 import { TaskResolver } from './lib/resolvers/TaskResolver'
